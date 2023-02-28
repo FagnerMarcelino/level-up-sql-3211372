@@ -5,3 +5,11 @@
 -- they plan to bring in their party.
 
 -- Hint: SQLite offers the INTEGER and REAL datatypes
+
+select * from customers
+CREATE TABLE CustomerResponse(
+  ID INTEGER IDENTITY(1,1) PRIMARY KEY,
+  CustomerID INTEGER, 
+  PartySize INTEGER
+  
+)
